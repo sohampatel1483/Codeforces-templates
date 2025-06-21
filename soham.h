@@ -19,6 +19,7 @@ void _print(char t) { cerr << t; }
 void _print(lld t) { cerr << t; }
 void _print(double t) { cerr << t; }
 void _print(ull t) { cerr << t; }
+void _print(size_t t) { cerr << t; }
 
 template <class T, class V>
 void _print(pair<T, V> p);
